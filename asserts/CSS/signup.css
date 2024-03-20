@@ -1,0 +1,197 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    background-color: #141e75b0;
+}
+
+h1{
+    font-weight:900
+}
+.container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+.box{
+    width:350px;
+    height:560px;
+    font-size:16px;
+    padding:30px 40px;
+    background-color: #0f044c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+}
+
+.user{
+    margin-top: 30px;
+}
+
+.fas{
+    position: absolute;
+    padding-top: 10px;
+    z-index: 5;
+}
+
+input{
+    width:85%;
+    margin-bottom:25px;
+    padding:10px 30px 10px;
+    font-size:16px;
+    border:none;
+    border-bottom: 1px solid #141e75;
+    outline:none;
+    background-color: #0f044c;
+    color: #fff;
+}
+
+input:focus{
+    border-bottom: 1px solid #eeeeee;
+}
+
+.recaption{
+    display: flex;
+}
+
+.recaption input{
+    padding: 2px;
+    margin: 5px 2px;
+    border-bottom: none;
+    text-align: center;
+    width: 45%;
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+    /* background-color: #ff7f50; */
+}
+
+#captionenter::placeholder{
+    font-size: 1rem;
+}
+
+.recaption button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #eeeeee;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#captionenter{
+    width: 50%;
+    margin-left: 50px;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px black;
+    background-color: #29359e86;
+}
+
+.recaption button:hover{
+    color: bisque;
+}
+
+.reset-password{
+    color:#ff7f50;
+    text-align:right;
+    margin-top:0px;
+    font-size:12px;
+}
+
+.login-btn{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.btn{
+    display:block;
+    width:80%;
+    padding:15px;
+    background-color: #eeeeee;
+    color:#0f044c;
+    border:none;
+    border-radius:20px;
+    font-size:20px;
+    font-weight:600;
+    opacity:0.8;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover{
+    opacity:1;
+}
+
+.signup span{
+    color:#7fb8e6;
+}
+
+.signup span::hover{
+    color:#3793df
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* SIginIN with Google */
+
+
+.login-with-google-btn{
+    transition: background-color .3s, box-shadow .3s;
+      
+    padding: 12px 16px 12px 42px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-color: #d1d1d1;
+    background-repeat: no-repeat;
+    background-position: 14px 13px;
+    cursor: pointer;
+    
+    &:hover{
+      box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+      background-color: rgba(124, 104, 238, 0.603);
+      color: white;
+    }
+    
+    &:active {
+      background-color: #eeeeee;
+      color: black;
+      outline: none;
+    }
+    
+    &:focus {
+      outline: none;
+      box-shadow: 
+        0 -1px 0 rgba(0, 0, 0, .04),
+        0 2px 4px rgba(0, 0, 0, .25),
+        0 0 0 3px #c8dafc;
+    }
+    
+    &:disabled {
+      filter: grayscale(100%);
+      background-color: #ebebeb;
+      box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+      cursor: not-allowed;
+    }
+  }
+
+  
