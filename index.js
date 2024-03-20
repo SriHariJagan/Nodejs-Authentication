@@ -4,7 +4,7 @@ const app = express();
 
 const layout = require('express-layouts');
 const db = require('./config/mongoose');        //for DataBase
-const session = require('express-session');     
+const session = require('cookie-session');     
 const cookieParser = require('cookie-parser');
 // Passport Authoritication 
 const passport = require('passport');
