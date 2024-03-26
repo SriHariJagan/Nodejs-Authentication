@@ -25,12 +25,12 @@ A simple authentication system implemented in Node.js using Express and Passport
             │
             ├── asserts/
             │   ├── CSS/
-            │   │   ├── home.css
-            │   │   ├── resetpassword.css
-            │   │   ├── signin.css
-            │   │   └── signup.css
-            │   └── JS/
-            │       └── signup.js
+            │      ├── home.css
+            │      ├── resetpassword.css
+            │      ├── signin.css
+            │      └── signup.css
+            │   
+            │       
             │
             ├── config/
             │   ├── flashmessage.js
