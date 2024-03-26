@@ -1,10 +1,17 @@
 const mongoose = require('mongoose');
-const url = "mongodb+srv://sriharijagan333:o8J4s6T2i23my8q1@cluster0.2xscnr7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+mongoose.set('strictQuery',false)
+const url = "mongodb+srv://sriharijagan333:TtNo9xopOBbtIUni@cluster0.2xscnr7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
-mongoose.connect(url);
-const db = mongoose.connection;
+const connectDB = async () => {
+    try {
+        await mongoose.connect(url);
+        console.log("DB is connected Successfully...");
+    } catch (err) {
+        console.error("Error connecting to DB:", err);
+    }
+}
 
-db.on('error',(err) => {console.log(err)});
-db.on('open',() => {console.log("DB is connected Successfully...")});
+module.exports = connectDB;
 
-module.exports = db;
+// // Call the connectDB function to establish the connection
+connectDB();
