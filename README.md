@@ -73,7 +73,7 @@ A simple authentication system implemented in Node.js using Express and Passport
 
    
 
-4. Set up environment variables:
+3. Set up environment variables:
    
   - Create a .env file in the root directory
   - Define the following environment variables:
@@ -83,13 +83,13 @@ A simple authentication system implemented in Node.js using Express and Passport
   - GOOGLE_CLIENT_ID=your_google_client_id
   -  GOOGLE_CLIENT_SECRET=your_google_client_secret
 
-## Live Demo:
- - https://nodejs-authentication-tx5t.onrender.com 
-
-
 
 4. Run the application:
    - npm start
 
-6. Open your web browser and navigate to `http://localhost:8000` to access the application.
+5. Open your web browser and navigate to `http://localhost:8000` to access the application.
+
+## Live Demo:
+ - https://nodejs-authentication-tx5t.onrender.com 
+
 
