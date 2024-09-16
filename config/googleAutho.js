@@ -6,8 +6,8 @@ const User = require('../models/signupSchema'); // Import User model for databas
 
 // Configure Passport to use Google OAuth strategy
 passport.use(new GoogleStrategy({
-    clientID:     "", // Google client ID
-    clientSecret: "", // Google client secret
+    clientID:     "jagan", // Google client ID
+    clientSecret: "jagan", // Google client secret
     callbackURL: "http://localhost:8000/home/auth/google/callback", // Callback URL after Google login
     passReqToCallback: true // Pass request to callback function
   },
