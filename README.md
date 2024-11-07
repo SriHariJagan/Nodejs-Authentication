@@ -92,4 +92,5 @@ A simple authentication system implemented in Node.js using Express and Passport
 ## Live Demo:
  - https://nodejs-authentication-tx5t.onrender.com 
 
+![image](https://github.com/user-attachments/assets/3627b96e-c14e-437e-8346-2587cecac169)
 
